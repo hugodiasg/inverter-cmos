@@ -12,3 +12,5 @@ Inverter DC:
 
 ![image](https://user-images.githubusercontent.com/80465879/143875618-caf2c880-15b5-4bb7-a613-1b99b656fdf2.png)
 
+Inverter Layout:
+![image](https://user-images.githubusercontent.com/80465879/143876127-979cc92d-c24d-473a-bbc6-f51715ca92dc.png)
