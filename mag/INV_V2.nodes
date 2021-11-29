@@ -1,0 +1,6 @@
+GND 0 0 ndif
+OUT 110 0 ndif
+VDD 0 382 pdif
+IN 10 264 p
+w_n36_344# -35 344 nw
+VSUBS -1073741823 -1073741823 space

@@ -1,0 +1,19 @@
+* NGSPICE file created from INV_V2.ext - technology: sky130A
+
+
+* Top level circuit INV_V2
+
+X0 OUT IN GND VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X1 OUT IN VDD w_n36_344# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+C0 IN VDD 0.03fF
+C1 IN GND 0.02fF
+C2 VDD OUT 0.29fF
+C3 GND OUT 0.11fF
+C4 IN OUT 0.05fF
+C5 GND VSUBS 0.29fF
+C6 OUT VSUBS 0.13fF
+C7 VDD VSUBS 0.39fF
+C8 IN VSUBS 0.30fF
+C9 w_n36_344# VSUBS 0.52fF
+.end
+

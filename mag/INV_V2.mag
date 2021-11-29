@@ -1,0 +1,110 @@
+magic
+tech sky130A
+timestamp 1638038480
+<< nwell >>
+rect -18 172 110 510
+<< nmos >>
+rect 40 0 55 100
+<< pmos >>
+rect 40 191 55 491
+<< ndiff >>
+rect 0 52 40 100
+rect 0 35 10 52
+rect 27 35 40 52
+rect 0 0 40 35
+rect 55 52 91 100
+rect 55 35 64 52
+rect 81 35 91 52
+rect 55 0 91 35
+<< pdiff >>
+rect 0 462 40 491
+rect 0 445 10 462
+rect 27 445 40 462
+rect 0 362 40 445
+rect 0 345 10 362
+rect 27 345 40 362
+rect 0 232 40 345
+rect 0 215 10 232
+rect 27 215 40 232
+rect 0 191 40 215
+rect 55 462 91 491
+rect 55 445 64 462
+rect 81 445 91 462
+rect 55 362 91 445
+rect 55 345 64 362
+rect 81 345 91 362
+rect 55 232 91 345
+rect 55 215 64 232
+rect 81 215 91 232
+rect 55 191 91 215
+<< ndiffc >>
+rect 10 35 27 52
+rect 64 35 81 52
+<< pdiffc >>
+rect 10 445 27 462
+rect 10 345 27 362
+rect 10 215 27 232
+rect 64 445 81 462
+rect 64 345 81 362
+rect 64 215 81 232
+<< poly >>
+rect 40 491 55 516
+rect 40 165 55 191
+rect 5 157 55 165
+rect 5 140 13 157
+rect 30 140 55 157
+rect 5 132 55 140
+rect 40 100 55 132
+rect 40 -25 55 0
+<< polycont >>
+rect 13 140 30 157
+<< locali >>
+rect -30 525 -21 542
+rect -4 525 33 542
+rect 50 525 99 542
+rect 116 525 120 542
+rect 10 462 27 525
+rect 10 362 27 445
+rect 10 232 27 345
+rect 10 191 27 215
+rect 64 462 81 495
+rect 64 362 81 445
+rect 64 232 81 345
+rect 5 157 40 165
+rect 5 140 13 157
+rect 30 140 40 157
+rect 5 132 40 140
+rect 10 52 27 100
+rect 10 -33 27 35
+rect 64 52 81 215
+rect 81 35 82 50
+rect 64 0 82 35
+rect 65 -33 82 -30
+rect -5 -50 10 -33
+rect 27 -50 65 -33
+rect 82 -50 85 -33
+<< viali >>
+rect -21 525 -4 542
+rect 33 525 50 542
+rect 99 525 116 542
+rect 10 -50 27 -33
+rect 65 -50 82 -33
+<< metal1 >>
+rect -37 542 128 550
+rect -37 525 -21 542
+rect -4 525 33 542
+rect 50 525 99 542
+rect 116 525 128 542
+rect -37 516 128 525
+rect -16 -33 90 -27
+rect -16 -50 10 -33
+rect 27 -50 65 -33
+rect 82 -50 90 -33
+rect -16 -62 90 -50
+rect -15 -75 90 -62
+<< labels >>
+flabel polycont 13 140 30 157 0 FreeSans 80 0 0 0 IN
+flabel locali 64 140 81 157 0 FreeSans 80 0 0 0 OUT
+flabel metal1 42 -50 59 -33 0 FreeSans 80 0 0 0 GND
+flabel metal1 60 525 77 542 0 FreeSans 80 0 0 0 VDD
+<< end >>
